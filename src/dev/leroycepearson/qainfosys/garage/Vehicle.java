@@ -12,4 +12,20 @@ public abstract class Vehicle {
         this.year = year;
     }
 
+    public String getMake() {
+        return this.make;
+    }
+
+    public String getModel() {
+        return this.model;
+    }
+
+    public int getYear() {
+        return this.year;
+    }
+
+    public String toString() {
+        return this.make + " " + this.model + " " + this.year;
+    }
+
 }
