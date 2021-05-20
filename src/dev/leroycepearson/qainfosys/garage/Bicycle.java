@@ -9,4 +9,9 @@ public class Bicycle extends Vehicle {
         this.massKilograms = massKilograms;
     }
 
+    @Override()
+    public float getBill() {
+        return 30 * massKilograms;
+    }
+
 }

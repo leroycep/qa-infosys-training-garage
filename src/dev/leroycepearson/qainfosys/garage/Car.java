@@ -9,4 +9,10 @@ public class Car extends Vehicle {
         this.formFactor = formFactor;
     }
 
+    @Override()
+    public float getBill() {
+        float yearsold = (float) 2021 - this.year;
+        return 20000 * 50 / (yearsold * yearsold);
+    }
+
 }

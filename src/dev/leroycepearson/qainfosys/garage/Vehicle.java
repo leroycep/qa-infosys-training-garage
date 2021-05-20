@@ -28,4 +28,6 @@ public abstract class Vehicle {
         return this.make + " " + this.model + " " + this.year;
     }
 
+    public abstract float getBill();
+
 }

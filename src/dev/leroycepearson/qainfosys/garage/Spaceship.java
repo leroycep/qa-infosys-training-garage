@@ -9,4 +9,9 @@ public class Spaceship extends Vehicle {
         this.mission = mission;
     }
 
+    @Override()
+    public float getBill() {
+        return 200000 * this.mission.length();
+    }
+
 }
